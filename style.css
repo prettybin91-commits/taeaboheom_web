@@ -347,8 +347,8 @@ button,input,select,textarea{font:inherit}
   content:"";
   position:absolute;
   top:145px;
-  left:4%;
-  right:4%;
+  left:0;
+  right:0;
   height:2px;
   background:#f3c5d4;
   z-index:0;
@@ -365,10 +365,10 @@ button,input,select,textarea{font:inherit}
   transform:translate(-50%,-50%);
   text-shadow:0 0 0 3px #fff;
 }
-.need-heart-start{left:4%}
+.need-heart-start{left:0}
 .need-heart-first{left:34.67%}
 .need-heart-second{left:65.33%}
-.need-heart-end{left:96%}
+.need-heart-end{left:100%}
 .reassure{background:linear-gradient(180deg,#fff6d7 0%,#fff0c3 100%)}
 .agreement-row,
 .agreement-row:last-child{
