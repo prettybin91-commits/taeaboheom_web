@@ -44,7 +44,7 @@ button,input,select,textarea{font:inherit}
 
 .form-card{display:grid;grid-template-columns:1fr 1.25fr;gap:0;background:rgba(255,255,255,.92);border:1px solid rgba(255,255,255,.9);border-radius:34px;box-shadow:0 28px 70px rgba(177,71,105,.15);overflow:hidden}
 .hero-form{margin-top:8px}
-.form-visual{padding:42px 42px 30px;display:flex;flex-direction:column;justify-content:space-between;background:linear-gradient(180deg,rgba(255,255,255,.7),rgba(255,255,255,.95))}
+.form-visual{padding:42px 42px 30px;display:flex;flex-direction:column;align-items:center;justify-content:space-between;text-align:center;background:linear-gradient(180deg,rgba(255,255,255,.7),rgba(255,255,255,.95))}
 .form-visual h2{margin:0;font-size:44px;line-height:1.22;letter-spacing:-0.05em}
 .form-visual h2 span{color:#ff6f96}
 .form-visual p{margin:16px 0 24px;font-size:17px;line-height:1.75;color:#6b5961}
@@ -195,14 +195,6 @@ button,input,select,textarea{font:inherit}
   z-index:2;
   margin-top:2px;
 }
-.hero-overline{
-  margin:0 0 14px;
-  font-size:18px;
-  font-weight:700;
-  color:#fff6fa;
-  letter-spacing:-0.03em;
-  text-shadow:0 2px 8px rgba(150,67,93,.18);
-}
 .hero-title{
   margin:0;
   display:inline-flex;
@@ -283,7 +275,6 @@ button,input,select,textarea{font:inherit}
 
 @media (max-width:900px){
   .hero-copy{padding-top:10px}
-  .hero-overline{font-size:16px;margin-bottom:12px}
   .hero-title{gap:6px}
   .hero-title span{
     font-size:clamp(66px,13vw,98px);
@@ -298,10 +289,6 @@ button,input,select,textarea{font:inherit}
 @media (max-width:560px){
   .hero-inner{min-height:660px}
   .hero-copy{padding-top:8px}
-  .hero-overline{
-    font-size:14px;
-    margin-bottom:10px;
-  }
   .hero-title{
     gap:4px;
   }
